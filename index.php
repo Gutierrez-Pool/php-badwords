@@ -11,13 +11,15 @@
     <form action="results.php" method="GET">
 
         <div>
-            <label for=""></label>
-            <input type="text">
+            <label for="">Inserisci una parola:</label>
+            <input type="text" name="parola" placeholder="Scrive qui">
         </div>
 
         <div>
-            <label for=""></label>
-            <input type="text">
+            <label for="">Inserisci un paragrafo:</label>
+            <textarea name="paragrafo" id="paragrafo" cols="30" rows="10"></textarea>
+        </div>
+        <div>
         </div>
 
         <input type="submit">
